@@ -1,0 +1,38 @@
+.container{
+     height: 100vh;
+    width: 60vh;
+    
+}
+.box-1{
+    background-color: rgb(118, 22, 81);
+    display: flex;
+    flex-direction: row;
+    color: #0e0404;
+   
+}
+
+.box-2{
+       display: flex;
+    flex-direction: row;
+    background-color: rgb(179, 140, 102);
+    padding-left: 9px;
+    padding-right: 9px;
+
+}
+
+.box-3{
+      display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.box-4{
+    justify-content: center;
+    display: flex;
+}
+
+button{
+
+    background-color: blueviolet;
+    color: bisque;
+    margin-top: 30px;
+}

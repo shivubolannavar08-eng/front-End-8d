@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="kfc.css"> 
+    <title>KFC</title>
+</head>
+<body>
+
+    <div class="main-header">
+        <h1>📍</h1>
+        <h1 class="location-para">Allow location access for local store menu</h1>
+        <button class="location-button">Set Location</button>
+    </div>
+
+    <hr>
+
+    <div class="navbar">
+        <div class="logo-details">
+            <h1 class="kfc-logo-name">KFC</h1> 
+            <p class="menu-steup">Menu</p>
+            <p class="deals-steup">Deals</p>
+        </div>
+
+        <div class="logo-end-info">
+            <h1>😳😀👌</h1>
+            <p class="signin-text">Sign In</p>
+            <hr class="hr-style">
+            <h1>Cart 🛒</h1>
+        </div>
+    </div>
+
+    <hr>
+
+</body>
+</html>

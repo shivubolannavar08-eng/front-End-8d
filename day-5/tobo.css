@@ -1,0 +1,21 @@
+.main{
+   background-image: url(https://wallpapers.com/images/high/notebook-background-dln74a4nnl0u72p8.webp); 
+   background-size: cover; 
+   height: 100vh;
+   display: flex;  
+  justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color:black
+   font-size: large;
+    
+}
+
+.button-style{
+    background-color: red;
+    color:#0000
+}
+.read{
+    margin-right: 200px;
+    font-weight: bold;
+}

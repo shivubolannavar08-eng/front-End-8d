@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traffic signals</title>
+
+  <style>
+    .lights{
+      background-color: black;
+      height: 250px;
+      width: 100px;
+      border: 2px solid yellow;
+      padding-left: 40px;
+      padding-top: 30px;
+      border-radius: 30%;
+    }
+    .red-light{4
+      background-color: red;
+      height: 60px;
+      width: 60px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+    }
+    .yellow-light{
+       background-color: rgb(156, 142, 12);
+      height: 60px;
+      width: 60px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+    }
+    .green-light{
+       background-color: rgb(6, 116, 6);
+      height: 60px;
+      width: 60px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+    }
+    .buttons{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      height: 250px;
+      width: 80px;
+      /* border: 1px solid red; */
+      padding-top: 40px;
+    }
+    .main-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 50px;
+    }
+    .stop-button{
+      background-color: red;
+      padding: 10px;
+      font-size: 20px;
+      border: none;
+      border-radius: 20px;
+    }
+    .ready-button{
+      background-color: rgb(206, 158, 26);
+      padding: 10px;
+      font-size: 20px;
+      border: none;
+      border-radius: 20px;
+    }
+    .Go-button{
+      background-color: rgb(10, 105, 18);
+      padding: 10px;
+      font-size: 20px;
+      border: none;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+    <div class="main-container">
+      <div class="lights">
+        
+        <div class="red-light" id="red-light-id"></div>
+
+        <div class="yellow-light" id="yellow-light-id"></div>
+
+        <div class="green-light" id="green-light-id"></div>
+
+      </div>
+
+      <div class="buttons">
+        <button class="stop-button" onclick="stop()">Stop</button>
+        <button class="ready-button">Ready</button>
+        <button class="Go-button">Go</button>
+      </div>
+
+    </div>
+
+
+
+    <script src="Trafficsignals.js"></script>
+</body>
+</html>

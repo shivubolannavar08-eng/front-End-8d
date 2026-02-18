@@ -1,0 +1,37 @@
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Removed margin-left to keep true centering */
+}
+
+.location-button {
+    margin-top: 40px;
+    background-color: rgb(108, 77, 38);
+    color: #ffffff; /* better contrast */
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-weight: bold;
+    cursor: pointer; /* improves UX */
+}
+
+.location-para {
+    margin-top: 30px;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.hr-style {
+    margin-top: 20px;
+    /* removed empty margin-right */
+}
+
+.signin-text {
+    margin-top: 30px;
+}

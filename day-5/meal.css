@@ -1,0 +1,28 @@
+.bg-img{
+    height: 844px;
+    width: 390px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+        align-items: end;
+    background-image: url(https://cdn.magicdecor.in/com/2022/10/23164950/Food-Cycle-Wallpaper-for-Wall-710x488.jpg);
+}
+
+.meal{
+    background-color: rgb(239, 239, 11);
+    width: 390px;
+    border-top-left-radius: 20px;
+    color: black;
+    border-top-right-radius: 20px;
+    font-style: inherit;
+
+}
+.button{
+    background-color: chartreuse;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 10px;
+    margin-left: 19px;
+}

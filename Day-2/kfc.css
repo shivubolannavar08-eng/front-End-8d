@@ -1,0 +1,67 @@
+.main-header{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    margin-left: 80px;
+
+}
+
+
+.location-button{
+    margin-top: 40px;
+    background-color: rgb(108, 77, 38);
+    color: rgb(129, 136, 219);
+    border: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+
+
+}
+
+.location-para{
+    margin-top: 16px;
+
+}
+.navabar{
+    display: flex;
+     gap: 30px;
+     justify-content: space-around;
+     height: 80px;
+
+
+}
+.logo-details{
+    display: flex;
+    gap: 40px;
+}
+.kfc-logo-name{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu-setup{
+margin-bottom: 40px;
+
+}
+
+.deal-setup{
+    margin-bottom: 40px;
+
+}
+.logo-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hr-style{
+    margin-top: 20px;
+  
+}
+
+.sigin-text{
+    margin-top: 20px;
+
+}

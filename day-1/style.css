@@ -1,0 +1,50 @@
+
+
+.main-heading{
+    color:rgb(13, 13, 201);
+    text-align: center;
+background-color: rgba(16, 84, 9, 0.563);
+
+}.main-heading {
+    color:beige;
+    padding: 7px;
+    text-align: center;
+    background-color: aqua;
+}
+
+.paragraph
+{
+    color: red;
+    text-align: left;
+    background-color: blue;
+}
+.button{
+    background-color: rgb(rgb(140, 70, 70), green, rgb(75, 75, 109));
+    color: rgb(80, 80, 17);
+    padding: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin: 10px;
+    border-radius: 19px;
+    border-style: dashed;
+    cursor: pointer;
+}
+.image{ 
+    width: 300px;
+    height: 200px;
+
+
+    border-color: rgb(65, 54, 54);
+}
+.image2 {
+    width: 244px;
+    height: 167px;
+}
+.button2{
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    
+    border-color: aquamarine;
+}

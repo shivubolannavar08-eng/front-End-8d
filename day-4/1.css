@@ -1,0 +1,27 @@
+.user{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-2{
+    height: 240px;
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 70px;
+
+}
+.box-3{
+    height: 240px;
+    width: 400px;
+    margin-left: 120px;
+    margin-bottom: 70px;
+
+} 
+
+.box-2{
+    display: flex;
+    flex-direction: row;
+
+}
